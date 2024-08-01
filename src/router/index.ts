@@ -4,6 +4,7 @@ import PseudoClasses from '@/views/coreConcepts/PseudoClasses.vue'
 import PseudoElements from '@/views/coreConcepts/PseudoElements.vue'
 import MediaAndFeatureQueries from '@/views/coreConcepts/MediaAndFeatureQueries.vue'
 import AttributeSelectors from '@/views/coreConcepts/AttributeSelectors.vue'
+import ResponsiveDesign from '@/views/coreConcepts/ResponsiveDesign.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/AttributeSelectors',
       name: 'AttributeSelectors',
       component: AttributeSelectors
+    },
+    {
+      path: '/ResponsiveDesign ',
+      name: 'ResponsiveDesign',
+      component: ResponsiveDesign
     }
   ]
 })

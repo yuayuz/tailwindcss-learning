@@ -35,6 +35,12 @@ const handleRouter = function (page: string) {
   >
     AttributeSelectors
   </button>
+  <button
+    @click="handleRouter('ResponsiveDesign')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    ResponsiveDesign
+  </button>
 </template>
 
 <style scoped>
