@@ -29,6 +29,12 @@ const handleRouter = function (page: string) {
   >
     MediaAndFeatureQueries
   </button>
+  <button
+    @click="handleRouter('AttributeSelectors')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    AttributeSelectors
+  </button>
 </template>
 
 <style scoped>

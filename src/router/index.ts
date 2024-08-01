@@ -3,6 +3,7 @@ import Home from '@/views/Home.vue'
 import PseudoClasses from '@/views/coreConcepts/PseudoClasses.vue'
 import PseudoElements from '@/views/coreConcepts/PseudoElements.vue'
 import MediaAndFeatureQueries from '@/views/coreConcepts/MediaAndFeatureQueries.vue'
+import AttributeSelectors from '@/views/coreConcepts/AttributeSelectors.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/MediaAndFeatureQueries',
       name: 'MediaAndFeatureQueries',
       component: MediaAndFeatureQueries
+    },
+    {
+      path: '/AttributeSelectors',
+      name: 'AttributeSelectors',
+      component: AttributeSelectors
     }
   ]
 })
