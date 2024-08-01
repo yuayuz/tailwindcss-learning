@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import PseudoClasses from '@/views/coreConcepts/PseudoClasses.vue'
 import PseudoElements from '@/views/coreConcepts/PseudoElements.vue'
+import MediaAndFeatureQueries from '@/views/coreConcepts/MediaAndFeatureQueries.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/PseudoElements',
       name: 'PseudoElements',
       component: PseudoElements
+    },
+    {
+      path: '/MediaAndFeatureQueries',
+      name: 'MediaAndFeatureQueries',
+      component: MediaAndFeatureQueries
     }
   ]
 })

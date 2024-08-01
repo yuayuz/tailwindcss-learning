@@ -23,6 +23,12 @@ const handleRouter = function (page: string) {
   >
     PseudoElements
   </button>
+  <button
+    @click="handleRouter('MediaAndFeatureQueries')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    MediaAndFeatureQueries
+  </button>
 </template>
 
 <style scoped>
