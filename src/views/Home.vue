@@ -17,6 +17,12 @@ const handleRouter = function (page: string) {
   >
     PseudoClasses
   </button>
+  <button
+    @click="handleRouter('PseudoElements')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    PseudoElements
+  </button>
 </template>
 
 <style scoped>
