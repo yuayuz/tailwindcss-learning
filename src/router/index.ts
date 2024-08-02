@@ -16,6 +16,7 @@ import BoxSizing from '@/views/layout/BoxSizing.vue'
 import Display from '@/views/layout/Display.vue'
 import Floats from '@/views/layout/Floats.vue'
 import Clear from '@/views/layout/Clear.vue'
+import Isolation from '@/views/layout/Isolation.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -104,6 +105,11 @@ const router = createRouter({
       path: '/Clear',
       name: 'Clear',
       component: Clear
+    },
+    {
+      path: '/Isolation',
+      name: 'Isolation',
+      component: Isolation
     }
   ]
 })

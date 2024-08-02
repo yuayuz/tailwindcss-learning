@@ -110,6 +110,12 @@ const handleRouter = function (page: string) {
   >
     Clear
   </button>
+  <button
+    @click="handleRouter('Isolation')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Isolation
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
