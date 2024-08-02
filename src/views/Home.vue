@@ -41,8 +41,14 @@ const handleRouter = function (page: string) {
   >
     ResponsiveDesign
   </button>
+  <h2 class="m-1 bg-violet-300 p-1">AspectRatio</h2>
+  <button
+    @click="handleRouter('AspectRatio')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    AspectRatio
+  </button>
 </template>
-
 <style scoped>
 @import 'tailwindcss/tailwind.css';
 </style>
