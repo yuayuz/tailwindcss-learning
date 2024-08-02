@@ -55,6 +55,12 @@ const handleRouter = function (page: string) {
   >
     Container
   </button>
+  <button
+    @click="handleRouter('Columns')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Columns
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
