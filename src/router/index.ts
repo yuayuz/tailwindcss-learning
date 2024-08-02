@@ -6,6 +6,7 @@ import MediaAndFeatureQueries from '@/views/coreConcepts/MediaAndFeatureQueries.
 import AttributeSelectors from '@/views/coreConcepts/AttributeSelectors.vue'
 import ResponsiveDesign from '@/views/coreConcepts/ResponsiveDesign.vue'
 import AspectRatio from '@/views/layout/AspectRatio.vue'
+import Container from '@/views/layout/Container.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/AspectRatio',
       name: 'AspectRatio',
       component: AspectRatio
+    },
+    {
+      path: '/Container',
+      name: 'Container',
+      component: Container
     }
   ]
 })
