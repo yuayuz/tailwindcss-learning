@@ -11,6 +11,7 @@ import Columns from '@/views/layout/Columns.vue'
 import BreakAfter from '@/views/layout/BreakAfter.vue'
 import BreakBefore from '@/views/layout/BreakBefore.vue'
 import BreakInside from '@/views/layout/BreakInside.vue'
+import BoxDecorationBreak from '@/views/layout/BoxDecorationBreak.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -74,6 +75,11 @@ const router = createRouter({
       path: '/BreakInside',
       name: 'BreakInside',
       component: BreakInside
+    },
+    {
+      path: '/BoxDecorationBreak',
+      name: 'BoxDecorationBreak',
+      component: BoxDecorationBreak
     }
   ]
 })
