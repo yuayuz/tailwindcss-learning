@@ -8,6 +8,7 @@ import ResponsiveDesign from '@/views/coreConcepts/ResponsiveDesign.vue'
 import AspectRatio from '@/views/layout/AspectRatio.vue'
 import Container from '@/views/layout/Container.vue'
 import Columns from '@/views/layout/Columns.vue'
+import BreakAfter from '@/views/layout/BreakAfter.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -56,6 +57,11 @@ const router = createRouter({
       path: '/Columns',
       name: 'Columns',
       component: Columns
+    },
+    {
+      path: '/BreakAfter',
+      name: 'BreakAfter',
+      component: BreakAfter
     }
   ]
 })
