@@ -14,6 +14,7 @@ import BreakInside from '@/views/layout/BreakInside.vue'
 import BoxDecorationBreak from '@/views/layout/BoxDecorationBreak.vue'
 import BoxSizing from '@/views/layout/BoxSizing.vue'
 import Display from '@/views/layout/Display.vue'
+import Floats from '@/views/layout/Floats.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -92,6 +93,11 @@ const router = createRouter({
       path: '/Display',
       name: 'Display',
       component: Display
+    },
+    {
+      path: '/Floats',
+      name: 'Floats',
+      component: Floats
     }
   ]
 })
