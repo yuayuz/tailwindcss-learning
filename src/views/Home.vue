@@ -2,6 +2,7 @@
 import router from '@/router'
 import HoverFocusAndOtherStates from '@/views/coreConcepts/PseudoClasses.vue'
 import PH2 from '@/components/pH2.vue'
+import Clear from '@/views/layout/Clear.vue'
 
 const handleRouter = function (page: string) {
   router.push({ name: page })
@@ -102,6 +103,12 @@ const handleRouter = function (page: string) {
     class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
   >
     Floats
+  </button>
+  <button
+    @click="handleRouter('Clear')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Clear
   </button>
 </template>
 <style scoped>
