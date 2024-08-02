@@ -73,6 +73,12 @@ const handleRouter = function (page: string) {
   >
     BreakBefore
   </button>
+  <button
+    @click="handleRouter('BreakInside')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    BreakInside
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
