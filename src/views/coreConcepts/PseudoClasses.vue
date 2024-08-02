@@ -1,19 +1,19 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import HeaderH1 from '@/components/headerH1.vue'
+import PH2 from '@/components/pH2.vue'
 
 const usrName = ref('')
 </script>
 
 <template>
-  <header class="flex w-full items-center justify-center">
-    <h1 class="m-2 w-min bg-violet-900 p-2 text-slate-100">HoverFocusAndOtherStates</h1>
-  </header>
+  <header-h1>HoverFocusAndOtherStates</header-h1>
   <!--
   使用实用程序来设置悬停、聚焦等元素的样式。
   Tailwind 中的每个实用程序类都可以通过在类名开头添加修饰符来有条件地应用，
   该修饰符描述你想要针对的条件。
   -->
-  <p class="m-1 bg-violet-300 p-1">将鼠标悬浮在按钮上可以看到背景颜色变化</p>
+  <p-h2>将鼠标悬浮在按钮上可以看到背景颜色变化</p-h2>
   <button class="m-1 rounded-md bg-violet-300 p-1 hover:bg-violet-700">悬浮</button>
   <!--
   Tailwind 几乎涵盖了您需要的一切修饰符，其中包括：

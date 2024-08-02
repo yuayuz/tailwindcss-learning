@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HeaderH1 from '@/components/headerH1.vue'
+import PH2 from '@/components/pH2.vue'
+</script>
 
 <template>
   <head>
@@ -6,15 +9,13 @@
     <!-- 确保将 viewport meta tag 已被加入文档的 <head> 中  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <header class="flex w-full items-center justify-center">
-    <h1 class="m-2 w-min bg-violet-900 p-2 text-slate-100">ResponsiveDesign</h1>
-  </header>
+  <header-h1>ResponsiveDesign</header-h1>
   <!-- 使用响应式实用程序变体来构建自适应用户界面 -->
   <!--
   Tailwind 中的每个实用程序类都可以在不同的断点有条件地应用，
   这使得构建复杂的响应式界面变得轻而易举，而无需离开 HTML
   -->
-  <p class="m-1 bg-violet-300 p-1">使用响应式实用程序变体来构建自适应用户界面</p>
+  <p-h2>使用响应式实用程序变体来构建自适应用户界面</p-h2>
   <!--
   要添加一个实用程序，但只让它在某个断点生效，
   需要做的就是在实用程序前面加上断点名称，后跟字符':'
@@ -40,7 +41,7 @@
   如果只想在特定断点范围处于活动状态时应用实用程序，
   请将响应式修饰符 md 与 max-* 修饰符堆叠在一起，以将该样式限制在特定范围内
    -->
-  <p class="m-1 bg-violet-300 p-1">在 768px 和 1280px 之间采用弹性布局</p>
+  <p-h2>在 768px 和 1280px 之间采用弹性布局</p-h2>
   <div class="md:max-xl:flex">
     <p class="m-1 p-1">你好,</p>
     <p class="m-1 p-1">世界!</p>

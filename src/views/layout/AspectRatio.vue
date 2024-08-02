@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HeaderH1 from '@/components/headerH1.vue'
+import PH2 from '@/components/pH2.vue'
+</script>
 
 <template>
   <!-- 用于控制程序长宽比 -->

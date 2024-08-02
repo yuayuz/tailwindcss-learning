@@ -1,13 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HeaderH1 from '@/components/headerH1.vue'
+import PH2 from '@/components/pH2.vue'
+</script>
 
 <template>
-  <header class="flex w-full items-center justify-center">
-    <h1 class="m-2 w-min bg-violet-900 p-2 text-slate-100">PseudoElements</h1>
-  </header>
+  <header-h1>PseudoElements</header-h1>
   <!-- 使用"before"和"after"修饰符来设置"::before"和"::after"伪元素的样式 -->
-  <p class="m-1 bg-violet-300 p-1">
-    使用"before"和"after"修饰符来设置"::before"和"::after"伪元素的样式
-  </p>
+  <p-h2> 使用"before"和"after"修饰符来设置"::before"和"::after"伪元素的样式 </p-h2>
   <label class="mx-auto block max-w-xl">
     <span
       class="block text-sm font-medium text-slate-700 after:ml-0.5 after:text-red-500 after:content-['*']"
@@ -49,7 +48,7 @@
   <!-- before 和 after 用于伪元素的内容,实际上不在 DOM 中且用户无法选择 -->
 
   <!-- 文件输入按钮: 使用修饰符 file 来设置文件输入中的按钮样式 -->
-  <p class="m-1 bg-violet-300 p-1">使用修饰符 file 来设置文件输入中的按钮样式</p>
+  <p-h2>使用修饰符 file 来设置文件输入中的按钮样式</p-h2>
   <form class="mx-auto flex max-w-xs items-center space-x-6 shadow-md">
     <div class="shrink-0">
       <img
@@ -69,7 +68,7 @@
   </form>
 
   <!-- 列表标记: 使用修饰符 marker 来设置列表中的计数器或项目符号的样式 -->
-  <p class="m-1 bg-violet-300 p-1">使用修饰符 marker 来设置列表中的计数器或项目符号的样式</p>
+  <p-h2>使用修饰符 marker 来设置列表中的计数器或项目符号的样式</p-h2>
   <div>
     <p class="m-1 p-1 text-pink-400">今日计划</p>
     <!-- 将marker修饰符设计为可继承的，因此虽然可以直接在元素上使用它<li>，但也可以将其用于父元素，以避免重复 -->
@@ -81,7 +80,7 @@
   </div>
 
   <!-- 突出显示的文本: 使用修饰符 selection 设置活动文本选择的样式 -->
-  <p class="m-1 bg-violet-300 p-1">使用修饰符 selection 设置活动文本选择的样式</p>
+  <p-h2>使用修饰符 selection 设置活动文本选择的样式</p-h2>
   <!-- selection修饰符设计为可继承的，因此可以将其添加到树中的任何位置，并且它将应用于所有后代元素。 -->
   <div class="mx-auto max-w-xl selection:bg-pink-300 selection:text-slate-50">
     <p>
@@ -93,9 +92,9 @@
   首行和首字母: 使用修饰符 first-line 为内容块的第一行设置样式，
   并使用修饰符 first-letter 为第一个字母设置样式
   -->
-  <p class="m-1 bg-violet-300 p-1">
+  <p-h2>
     使用修饰符 first-line 为内容块的第一行设置样式， 并使用修饰符 first-letter 为第一个字母设置样式
-  </p>
+  </p-h2>
   <p class="mx-auto max-w-xl first-letter:text-7xl first-line:text-pink-400">
     谁没倒霉过呢？没人会一直顺利，每个人都曾咬着牙撑过低谷期，只跟最亲近的几个人诉说崩溃大哭，
     外人看到的还是春风满面事事称心。只有你成功时，你才可以坦然谈论失败，
@@ -104,9 +103,7 @@
   </p>
 
   <!-- 对话框: 使用修饰符 backdrop 来设置原生<dialog>元素的背景样式 -->
-  <p class="m-1 bg-violet-300 p-1">
-    使用修饰符 backdrop 来设置原生 dialog 元素的背景样式(样式未渲染)
-  </p>
+  <p-h2> 使用修饰符 backdrop 来设置原生 dialog 元素的背景样式(样式未渲染) </p-h2>
   <dialog class="backdrop:bg-violet-500" open>
     <form method="dialog">你好!!!</form>
   </dialog>

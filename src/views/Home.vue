@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import router from '@/router'
 import HoverFocusAndOtherStates from '@/views/coreConcepts/PseudoClasses.vue'
+import PH2 from '@/components/pH2.vue'
 
 const handleRouter = function (page: string) {
   router.push({ name: page })
@@ -10,7 +11,7 @@ const handleRouter = function (page: string) {
 <template>
   <h1 class="padding bg m-1 bg-sky-400 p-1">Home</h1>
 
-  <h2 class="m-1 bg-violet-300 p-1">Core Concepts</h2>
+  <p-h2>Core Concepts</p-h2>
   <button
     @click="handleRouter('PseudoClasses')"
     class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
@@ -41,7 +42,7 @@ const handleRouter = function (page: string) {
   >
     ResponsiveDesign
   </button>
-  <h2 class="m-1 bg-violet-300 p-1">AspectRatio</h2>
+  <p-h2>AspectRatio</p-h2>
   <button
     @click="handleRouter('AspectRatio')"
     class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
