@@ -12,6 +12,7 @@ import BreakAfter from '@/views/layout/BreakAfter.vue'
 import BreakBefore from '@/views/layout/BreakBefore.vue'
 import BreakInside from '@/views/layout/BreakInside.vue'
 import BoxDecorationBreak from '@/views/layout/BoxDecorationBreak.vue'
+import BoxSizing from '@/views/layout/BoxSizing.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -80,6 +81,11 @@ const router = createRouter({
       path: '/BoxDecorationBreak',
       name: 'BoxDecorationBreak',
       component: BoxDecorationBreak
+    },
+    {
+      path: '/BoxSizing',
+      name: 'BoxSizing',
+      component: BoxSizing
     }
   ]
 })
