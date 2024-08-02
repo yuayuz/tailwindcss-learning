@@ -17,6 +17,7 @@ import Display from '@/views/layout/Display.vue'
 import Floats from '@/views/layout/Floats.vue'
 import Clear from '@/views/layout/Clear.vue'
 import Isolation from '@/views/layout/Isolation.vue'
+import ObjectFit from '@/views/layout/ObjectFit.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -110,6 +111,11 @@ const router = createRouter({
       path: '/Isolation',
       name: 'Isolation',
       component: Isolation
+    },
+    {
+      path: '/ObjectFit',
+      name: 'ObjectFit',
+      component: ObjectFit
     }
   ]
 })
