@@ -152,6 +152,12 @@ const handleRouter = function (page: string) {
   >
     TopRightBottomLeft
   </button>
+  <button
+    @click="handleRouter('Visibility')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Visibility
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

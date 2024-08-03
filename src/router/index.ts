@@ -23,6 +23,7 @@ import Overflow from '@/views/layout/Overflow.vue'
 import OverscrollBehavior from '@/views/layout/OverscrollBehavior.vue'
 import Position from '@/views/layout/Position.vue'
 import TopRightBottomLeft from '@/views/layout/TopRightBottomLeft.vue'
+import Visibility from '@/views/layout/Visibility.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -146,6 +147,11 @@ const router = createRouter({
       path: '/TopRightBottomLeft',
       name: 'TopRightBottomLeft',
       component: TopRightBottomLeft
+    },
+    {
+      path: '/Visibility',
+      name: 'Visibility',
+      component: Visibility
     }
   ]
 })
