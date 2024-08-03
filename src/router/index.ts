@@ -28,6 +28,7 @@ import FlexBasis from '@/views/FlexAndGrid/FlexBasis.vue'
 import FlexDirection from '@/views/FlexAndGrid/FlexDirection.vue'
 import FlexWrap from '@/views/FlexAndGrid/FlexWrap.vue'
 import Flex from '@/views/FlexAndGrid/Flex.vue'
+import FlexGrow from '@/views/FlexAndGrid/FlexGrow.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -176,6 +177,11 @@ const router = createRouter({
       path: '/Flex',
       name: 'Flex',
       component: Flex
+    },
+    {
+      path: '/FlexGrow',
+      name: 'FlexGrow',
+      component: FlexGrow
     }
   ]
 })
