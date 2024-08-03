@@ -134,6 +134,12 @@ const handleRouter = function (page: string) {
   >
     Overflow
   </button>
+  <button
+    @click="handleRouter('OverscrollBehavior')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    OverscrollBehavior
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
