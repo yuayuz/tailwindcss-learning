@@ -158,12 +158,18 @@ const handleRouter = function (page: string) {
   >
     Visibility
   </button>
-  <p-h2>FlexboxGrid </p-h2>
+  <p-h2>FlexboxGrid</p-h2>
   <button
     @click="handleRouter('FlexBasis')"
     class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
   >
     FlexBasis
+  </button>
+  <button
+    @click="handleRouter('FlexDirection')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    FlexDirection
   </button>
 </template>
 <style scoped>

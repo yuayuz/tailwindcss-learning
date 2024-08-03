@@ -25,6 +25,7 @@ import Position from '@/views/layout/Position.vue'
 import TopRightBottomLeft from '@/views/layout/TopRightBottomLeft.vue'
 import Visibility from '@/views/layout/Visibility.vue'
 import FlexBasis from '@/views/FlexboxGrid /FlexBasis.vue'
+import FlexDirection from '@/views/FlexboxGrid /FlexDirection.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -158,6 +159,11 @@ const router = createRouter({
       path: '/FlexBasis',
       name: 'FlexBasis',
       component: FlexBasis
+    },
+    {
+      path: '/FlexDirection',
+      name: 'FlexDirection',
+      component: FlexDirection
     }
   ]
 })
