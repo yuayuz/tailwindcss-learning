@@ -24,9 +24,9 @@ import OverscrollBehavior from '@/views/layout/OverscrollBehavior.vue'
 import Position from '@/views/layout/Position.vue'
 import TopRightBottomLeft from '@/views/layout/TopRightBottomLeft.vue'
 import Visibility from '@/views/layout/Visibility.vue'
-import FlexBasis from '@/views/FlexboxGrid /FlexBasis.vue'
-import FlexDirection from '@/views/FlexboxGrid /FlexDirection.vue'
-import FlexWrap from '@/views/FlexboxGrid /FlexWrap.vue'
+import FlexBasis from '@/views/FlexAndGrid/FlexBasis.vue'
+import FlexDirection from '@/views/FlexAndGrid/FlexDirection.vue'
+import FlexWrap from '@/views/FlexAndGrid/FlexWrap.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
