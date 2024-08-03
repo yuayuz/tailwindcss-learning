@@ -22,6 +22,7 @@ import ObjectPosition from '@/views/layout/ObjectPosition.vue'
 import Overflow from '@/views/layout/Overflow.vue'
 import OverscrollBehavior from '@/views/layout/OverscrollBehavior.vue'
 import Position from '@/views/layout/Position.vue'
+import TopRightBottomLeft from '@/views/layout/TopRightBottomLeft.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -140,6 +141,11 @@ const router = createRouter({
       path: '/Position',
       name: 'Position',
       component: Position
+    },
+    {
+      path: '/TopRightBottomLeft',
+      name: 'TopRightBottomLeft',
+      component: TopRightBottomLeft
     }
   ]
 })

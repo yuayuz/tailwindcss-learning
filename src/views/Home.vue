@@ -146,6 +146,12 @@ const handleRouter = function (page: string) {
   >
     Position
   </button>
+  <button
+    @click="handleRouter('TopRightBottomLeft')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    TopRightBottomLeft
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
