@@ -140,6 +140,12 @@ const handleRouter = function (page: string) {
   >
     OverscrollBehavior
   </button>
+  <button
+    @click="handleRouter('Position')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Position
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

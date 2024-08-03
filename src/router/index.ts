@@ -21,6 +21,7 @@ import ObjectFit from '@/views/layout/ObjectFit.vue'
 import ObjectPosition from '@/views/layout/ObjectPosition.vue'
 import Overflow from '@/views/layout/Overflow.vue'
 import OverscrollBehavior from '@/views/layout/OverscrollBehavior.vue'
+import Position from '@/views/layout/Position.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -134,6 +135,11 @@ const router = createRouter({
       path: '/OverscrollBehavior',
       name: 'OverscrollBehavior',
       component: OverscrollBehavior
+    },
+    {
+      path: '/Position',
+      name: 'Position',
+      component: Position
     }
   ]
 })
