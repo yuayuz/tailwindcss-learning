@@ -158,6 +158,13 @@ const handleRouter = function (page: string) {
   >
     Visibility
   </button>
+  <p-h2>FlexboxGrid </p-h2>
+  <button
+    @click="handleRouter('FlexBasis')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    FlexBasis
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

@@ -24,6 +24,7 @@ import OverscrollBehavior from '@/views/layout/OverscrollBehavior.vue'
 import Position from '@/views/layout/Position.vue'
 import TopRightBottomLeft from '@/views/layout/TopRightBottomLeft.vue'
 import Visibility from '@/views/layout/Visibility.vue'
+import FlexBasis from '@/views/FlexboxGrid /FlexBasis.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -152,6 +153,11 @@ const router = createRouter({
       path: '/Visibility',
       name: 'Visibility',
       component: Visibility
+    },
+    {
+      path: '/FlexBasis',
+      name: 'FlexBasis',
+      component: FlexBasis
     }
   ]
 })
