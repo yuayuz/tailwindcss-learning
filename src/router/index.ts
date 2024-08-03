@@ -19,6 +19,7 @@ import Clear from '@/views/layout/Clear.vue'
 import Isolation from '@/views/layout/Isolation.vue'
 import ObjectFit from '@/views/layout/ObjectFit.vue'
 import ObjectPosition from '@/views/layout/ObjectPosition.vue'
+import Overflow from '@/views/layout/Overflow.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -122,6 +123,11 @@ const router = createRouter({
       path: '/ObjectPosition',
       name: 'ObjectPosition',
       component: ObjectPosition
+    },
+    {
+      path: '/Overflow',
+      name: 'Overflow',
+      component: Overflow
     }
   ]
 })
