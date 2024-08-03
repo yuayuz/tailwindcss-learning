@@ -171,6 +171,12 @@ const handleRouter = function (page: string) {
   >
     FlexDirection
   </button>
+  <button
+    @click="handleRouter('FlexWrap')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Flex Wrap
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

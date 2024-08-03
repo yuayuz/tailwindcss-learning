@@ -26,6 +26,7 @@ import TopRightBottomLeft from '@/views/layout/TopRightBottomLeft.vue'
 import Visibility from '@/views/layout/Visibility.vue'
 import FlexBasis from '@/views/FlexboxGrid /FlexBasis.vue'
 import FlexDirection from '@/views/FlexboxGrid /FlexDirection.vue'
+import FlexWrap from '@/views/FlexboxGrid /FlexWrap.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -164,6 +165,11 @@ const router = createRouter({
       path: '/FlexDirection',
       name: 'FlexDirection',
       component: FlexDirection
+    },
+    {
+      path: '/FlexWrap',
+      name: 'FlexWrap',
+      component: FlexWrap
     }
   ]
 })
