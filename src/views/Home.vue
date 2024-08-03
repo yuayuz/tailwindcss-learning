@@ -122,6 +122,12 @@ const handleRouter = function (page: string) {
   >
     ObjectFit
   </button>
+  <button
+    @click="handleRouter('ObjectPosition')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    ObjectPosition
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
