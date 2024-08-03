@@ -29,6 +29,7 @@ import FlexDirection from '@/views/FlexAndGrid/FlexDirection.vue'
 import FlexWrap from '@/views/FlexAndGrid/FlexWrap.vue'
 import Flex from '@/views/FlexAndGrid/Flex.vue'
 import FlexGrow from '@/views/FlexAndGrid/FlexGrow.vue'
+import FlexShrink from '@/views/FlexAndGrid/FlexShrink.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -182,6 +183,11 @@ const router = createRouter({
       path: '/FlexGrow',
       name: 'FlexGrow',
       component: FlexGrow
+    },
+    {
+      path: '/FlexShrink',
+      name: 'FlexShrink',
+      component: FlexShrink
     }
   ]
 })

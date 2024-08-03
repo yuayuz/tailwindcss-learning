@@ -189,6 +189,12 @@ const handleRouter = function (page: string) {
   >
     FlexGrow
   </button>
+  <button
+    @click="handleRouter('FlexShrink')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    FlexShrink
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
