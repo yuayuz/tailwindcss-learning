@@ -27,6 +27,7 @@ import Visibility from '@/views/layout/Visibility.vue'
 import FlexBasis from '@/views/FlexAndGrid/FlexBasis.vue'
 import FlexDirection from '@/views/FlexAndGrid/FlexDirection.vue'
 import FlexWrap from '@/views/FlexAndGrid/FlexWrap.vue'
+import Flex from '@/views/FlexAndGrid/Flex.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -170,6 +171,11 @@ const router = createRouter({
       path: '/FlexWrap',
       name: 'FlexWrap',
       component: FlexWrap
+    },
+    {
+      path: '/Flex',
+      name: 'Flex',
+      component: Flex
     }
   ]
 })
