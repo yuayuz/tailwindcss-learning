@@ -39,6 +39,7 @@ import GridAutoFlow from '@/views/FlexAndGrid/GridAutoFlow.vue'
 import GridAutoColumns from '@/views/FlexAndGrid/GridAutoColumns.vue'
 import GridAutoRows from '@/views/FlexAndGrid/GridAutoRows.vue'
 import Gap from '@/views/FlexAndGrid/Gap.vue'
+import JustifyContent from '@/views/FlexAndGrid/JustifyContent.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -242,6 +243,11 @@ const router = createRouter({
       path: '/Gap',
       name: 'Gap',
       component: Gap
+    },
+    {
+      path: '/JustifyContent',
+      name: 'JustifyContent',
+      component: JustifyContent
     }
   ]
 })

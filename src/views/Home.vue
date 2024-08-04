@@ -249,6 +249,12 @@ const handleRouter = function (page: string) {
   >
     Gap
   </button>
+  <button
+    @click="handleRouter('JustifyContent')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    JustifyContent
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
