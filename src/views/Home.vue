@@ -267,6 +267,12 @@ const handleRouter = function (page: string) {
   >
     AlignContent
   </button>
+  <button
+    @click="handleRouter('AlignItems')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    AlignItems
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
