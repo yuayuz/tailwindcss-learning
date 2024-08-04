@@ -36,6 +36,7 @@ import GridColumnStartAndEnd from '@/views/FlexAndGrid/GridColumnStartAndEnd.vue
 import GridTemplateRows from '@/views/FlexAndGrid/GridTemplateRows.vue'
 import GridRowStartAndEnd from '@/views/FlexAndGrid/GridRowStartAndEnd.vue'
 import GridAutoFlow from '@/views/FlexAndGrid/GridAutoFlow.vue'
+import GridAutoColumns from '@/views/FlexAndGrid/GridAutoColumns.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -224,6 +225,11 @@ const router = createRouter({
       path: '/GridAutoFlow',
       name: 'GridAutoFlow',
       component: GridAutoFlow
+    },
+    {
+      path: '/GridAutoColumns',
+      name: 'GridAutoColumns',
+      component: GridAutoColumns
     }
   ]
 })

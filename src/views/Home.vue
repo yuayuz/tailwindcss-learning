@@ -231,6 +231,12 @@ const handleRouter = function (page: string) {
   >
     GridAutoFlow
   </button>
+  <button
+    @click="handleRouter('GridAutoColumns')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    GridAutoColumns
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
