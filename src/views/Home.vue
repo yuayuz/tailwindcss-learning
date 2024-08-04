@@ -207,6 +207,12 @@ const handleRouter = function (page: string) {
   >
     GridTemplateColumns
   </button>
+  <button
+    @click="handleRouter('GridColumnStartAndEnd')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    GridColumnStartAndEnd
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

@@ -32,6 +32,7 @@ import FlexGrow from '@/views/FlexAndGrid/FlexGrow.vue'
 import FlexShrink from '@/views/FlexAndGrid/FlexShrink.vue'
 import Order from '@/views/FlexAndGrid/Order.vue'
 import GridTemplateColumns from '@/views/FlexAndGrid/GridTemplateColumns.vue'
+import GridColumnStartAndEnd from '@/views/FlexAndGrid/GridColumnStartAndEnd.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -200,6 +201,11 @@ const router = createRouter({
       path: '/GridTemplateColumns',
       name: 'GridTemplateColumns',
       component: GridTemplateColumns
+    },
+    {
+      path: '/GridColumnStartAndEnd',
+      name: 'GridColumnStartAndEnd',
+      component: GridColumnStartAndEnd
     }
   ]
 })
