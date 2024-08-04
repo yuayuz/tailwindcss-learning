@@ -41,6 +41,7 @@ import GridAutoRows from '@/views/FlexAndGrid/GridAutoRows.vue'
 import Gap from '@/views/FlexAndGrid/Gap.vue'
 import JustifyContent from '@/views/FlexAndGrid/JustifyContent.vue'
 import JustifyItems from '@/views/FlexAndGrid/JustifyItems.vue'
+import AlignContent from '@/views/FlexAndGrid/AlignContent.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -254,6 +255,11 @@ const router = createRouter({
       path: '/JustifyItems',
       name: 'JustifyItems',
       component: JustifyItems
+    },
+    {
+      path: '/AlignContent',
+      name: 'AlignContent',
+      component: AlignContent
     }
   ]
 })
