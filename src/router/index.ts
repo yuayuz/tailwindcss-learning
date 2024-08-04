@@ -38,6 +38,7 @@ import GridRowStartAndEnd from '@/views/FlexAndGrid/GridRowStartAndEnd.vue'
 import GridAutoFlow from '@/views/FlexAndGrid/GridAutoFlow.vue'
 import GridAutoColumns from '@/views/FlexAndGrid/GridAutoColumns.vue'
 import GridAutoRows from '@/views/FlexAndGrid/GridAutoRows.vue'
+import Gap from '@/views/FlexAndGrid/Gap.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -236,6 +237,11 @@ const router = createRouter({
       path: '/GridAutoRows',
       name: 'GridAutoRows',
       component: GridAutoRows
+    },
+    {
+      path: '/Gap',
+      name: 'Gap',
+      component: Gap
     }
   ]
 })
