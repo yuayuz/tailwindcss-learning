@@ -30,6 +30,7 @@ import FlexWrap from '@/views/FlexAndGrid/FlexWrap.vue'
 import Flex from '@/views/FlexAndGrid/Flex.vue'
 import FlexGrow from '@/views/FlexAndGrid/FlexGrow.vue'
 import FlexShrink from '@/views/FlexAndGrid/FlexShrink.vue'
+import Order from '@/views/FlexAndGrid/Order.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -188,6 +189,11 @@ const router = createRouter({
       path: '/FlexShrink',
       name: 'FlexShrink',
       component: FlexShrink
+    },
+    {
+      path: '/Order',
+      name: 'Order',
+      component: Order
     }
   ]
 })
