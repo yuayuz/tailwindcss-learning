@@ -34,6 +34,7 @@ import Order from '@/views/FlexAndGrid/Order.vue'
 import GridTemplateColumns from '@/views/FlexAndGrid/GridTemplateColumns.vue'
 import GridColumnStartAndEnd from '@/views/FlexAndGrid/GridColumnStartAndEnd.vue'
 import GridTemplateRows from '@/views/FlexAndGrid/GridTemplateRows.vue'
+import GridRowStartAndEnd from '@/views/FlexAndGrid/GridRowStartAndEnd.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -212,6 +213,11 @@ const router = createRouter({
       path: '/GridTemplateRows',
       name: 'GridTemplateRows',
       component: GridTemplateRows
+    },
+    {
+      path: '/GridRowStartAndEnd',
+      name: 'GridRowStartAndEnd',
+      component: GridRowStartAndEnd
     }
   ]
 })
