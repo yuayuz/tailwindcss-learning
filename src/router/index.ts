@@ -43,6 +43,7 @@ import JustifyContent from '@/views/FlexAndGrid/JustifyContent.vue'
 import JustifyItems from '@/views/FlexAndGrid/JustifyItems.vue'
 import AlignContent from '@/views/FlexAndGrid/AlignContent.vue'
 import AlignItems from '@/views/FlexAndGrid/AlignItems.vue'
+import AlignSelf from '@/views/FlexAndGrid/AlignSelf.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -266,6 +267,11 @@ const router = createRouter({
       path: '/AlignItems',
       name: 'AlignItems',
       component: AlignItems
+    },
+    {
+      path: '/AlignSelf',
+      name: 'AlignSelf',
+      component: AlignSelf
     }
   ]
 })
