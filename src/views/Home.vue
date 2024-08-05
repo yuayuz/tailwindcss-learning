@@ -317,6 +317,13 @@ const handleRouter = function (page: string) {
   >
     SpaceBetween
   </button>
+  <p-h2>Sizing</p-h2
+  ><button
+    @click="handleRouter('Width')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Width
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

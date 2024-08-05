@@ -50,6 +50,7 @@ import PlaceSelf from '@/views/FlexAndGrid/PlaceSelf.vue'
 import Padding from '@/views/Spacing/Padding.vue'
 import Margin from '@/views/Spacing/Margin.vue'
 import SpaceBetween from '@/views/Spacing/SpaceBetween.vue'
+import Width from '@/views/Sizing/Width.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -308,6 +309,11 @@ const router = createRouter({
       path: '/SpaceBetween',
       name: 'SpaceBetween',
       component: SpaceBetween
+    },
+    {
+      path: '/Width',
+      name: 'Width',
+      component: Width
     }
   ]
 })
