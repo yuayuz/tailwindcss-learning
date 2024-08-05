@@ -311,6 +311,12 @@ const handleRouter = function (page: string) {
   >
     Margin
   </button>
+  <button
+    @click="handleRouter('SpaceBetween')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    SpaceBetween
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
