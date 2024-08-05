@@ -51,6 +51,7 @@ import Padding from '@/views/Spacing/Padding.vue'
 import Margin from '@/views/Spacing/Margin.vue'
 import SpaceBetween from '@/views/Spacing/SpaceBetween.vue'
 import Width from '@/views/Sizing/Width.vue'
+import MinWidth from '@/views/Sizing/MinWidth.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -314,6 +315,11 @@ const router = createRouter({
       path: '/Width',
       name: 'Width',
       component: Width
+    },
+    {
+      path: '/MinWidth',
+      name: 'MinWidth',
+      component: MinWidth
     }
   ]
 })
