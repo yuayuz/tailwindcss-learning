@@ -354,6 +354,12 @@ const handleRouter = function (page: string) {
   >
     MaxHeight
   </button>
+  <button
+    @click="handleRouter('Size')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Size
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
