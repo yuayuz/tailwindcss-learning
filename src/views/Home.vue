@@ -285,6 +285,12 @@ const handleRouter = function (page: string) {
   >
     PlaceContent
   </button>
+  <button
+    @click="handleRouter('PlaceItems')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    PlaceItems
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
