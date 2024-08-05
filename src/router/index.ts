@@ -47,6 +47,7 @@ import AlignSelf from '@/views/FlexAndGrid/AlignSelf.vue'
 import PlaceContent from '@/views/FlexAndGrid/PlaceContent.vue'
 import PlaceItems from '@/views/FlexAndGrid/PlaceItems.vue'
 import PlaceSelf from '@/views/FlexAndGrid/PlaceSelf.vue'
+import Padding from '@/views/Spacing/Padding.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -290,6 +291,11 @@ const router = createRouter({
       path: '/PlaceSelf',
       name: 'PlaceSelf',
       component: PlaceSelf
+    },
+    {
+      path: '/Padding',
+      name: 'Padding',
+      component: Padding
     }
   ]
 })

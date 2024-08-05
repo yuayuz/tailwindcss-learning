@@ -3,6 +3,7 @@ import router from '@/router'
 import HoverFocusAndOtherStates from '@/views/coreConcepts/PseudoClasses.vue'
 import PH2 from '@/components/pH2.vue'
 import Clear from '@/views/layout/Clear.vue'
+import HeaderH1 from '@/components/headerH1.vue'
 
 const handleRouter = function (page: string) {
   router.push({ name: page })
@@ -296,6 +297,13 @@ const handleRouter = function (page: string) {
     class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
   >
     PlaceSelf
+  </button>
+  <p-h2>Padding</p-h2>
+  <button
+    @click="handleRouter('Padding')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    Padding
   </button>
 </template>
 <style scoped>
