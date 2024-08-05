@@ -48,6 +48,7 @@ import PlaceContent from '@/views/FlexAndGrid/PlaceContent.vue'
 import PlaceItems from '@/views/FlexAndGrid/PlaceItems.vue'
 import PlaceSelf from '@/views/FlexAndGrid/PlaceSelf.vue'
 import Padding from '@/views/Spacing/Padding.vue'
+import Margin from '@/views/Spacing/Margin.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -296,6 +297,11 @@ const router = createRouter({
       path: '/Padding',
       name: 'Padding',
       component: Padding
+    },
+    {
+      path: '/Margin',
+      name: 'Margin',
+      component: Margin
     }
   ]
 })
