@@ -54,6 +54,7 @@ import Width from '@/views/Sizing/Width.vue'
 import MinWidth from '@/views/Sizing/MinWidth.vue'
 import MaxWidth from '@/views/Sizing/MaxWidth.vue'
 import Height from '@/views/Sizing/Height.vue'
+import MinHeight from '@/views/Sizing/MinHeight.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -332,6 +333,11 @@ const router = createRouter({
       path: '/Height',
       name: 'Height',
       component: Height
+    },
+    {
+      path: '/MinHeight',
+      name: 'MinHeight',
+      component: MinHeight
     }
   ]
 })
