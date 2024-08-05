@@ -367,6 +367,12 @@ const handleRouter = function (page: string) {
   >
     FontFamily
   </button>
+  <button
+    @click="handleRouter('FontSize')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    FontSize
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

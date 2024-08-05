@@ -58,6 +58,7 @@ import MinHeight from '@/views/Sizing/MinHeight.vue'
 import MaxHeight from '@/views/Sizing/MaxHeight.vue'
 import Size from '@/views/Sizing/Size.vue'
 import FontFamily from '@/views/Typography/FontFamily.vue'
+import FontSize from '@/views/Typography/FontSize.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -356,6 +357,11 @@ const router = createRouter({
       path: '/FontFamily',
       name: 'FontFamily',
       component: FontFamily
+    },
+    {
+      path: '/FontSize',
+      name: 'FontSize',
+      component: FontSize
     }
   ]
 })
