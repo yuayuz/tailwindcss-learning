@@ -63,6 +63,7 @@ import FontSmoothing from '@/views/Typography/FontSmoothing.vue'
 import FontStyle from '@/views/Typography/FontStyle.vue'
 import FontWeight from '@/views/Typography/FontWeight.vue'
 import FontVariantNumeric from '@/views/Typography/FontVariantNumeric.vue'
+import LetterSpacing from '@/views/Typography/LetterSpacing.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -386,6 +387,11 @@ const router = createRouter({
       path: '/FontVariantNumeric',
       name: 'FontVariantNumeric',
       component: FontVariantNumeric
+    },
+    {
+      path: '/LetterSpacing',
+      name: 'LetterSpacing',
+      component: LetterSpacing
     }
   ]
 })
