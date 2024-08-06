@@ -79,6 +79,7 @@ import TextUnderlineOffset from '@/views/Typography/TextUnderlineOffset.vue'
 import TextTransform from '@/views/Typography/TextTransform.vue'
 import TextOverflow from '@/views/Typography/TextOverflow.vue'
 import TextWrap from '@/views/Typography/TextWrap.vue'
+import TextIndent from '@/views/Typography/TextIndent.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -482,6 +483,11 @@ const router = createRouter({
       path: '/TextWrap',
       name: 'TextWrap',
       component: TextWrap
+    },
+    {
+      path: '/TextIndent',
+      name: 'TextIndent',
+      component: TextIndent
     }
   ]
 })
