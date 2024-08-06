@@ -64,6 +64,7 @@ import FontStyle from '@/views/Typography/FontStyle.vue'
 import FontWeight from '@/views/Typography/FontWeight.vue'
 import FontVariantNumeric from '@/views/Typography/FontVariantNumeric.vue'
 import LetterSpacing from '@/views/Typography/LetterSpacing.vue'
+import LineClamp from '@/views/Typography/LineClamp.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -392,6 +393,11 @@ const router = createRouter({
       path: '/LetterSpacing',
       name: 'LetterSpacing',
       component: LetterSpacing
+    },
+    {
+      path: '/LineClamp',
+      name: 'LineClamp',
+      component: LineClamp
     }
   ]
 })
