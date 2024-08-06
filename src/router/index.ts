@@ -68,6 +68,7 @@ import LineClamp from '@/views/Typography/LineClamp.vue'
 import LineHeight from '@/views/Typography/LineHeight.vue'
 import ListStyleImage from '@/views/Typography/ListStyleImage.vue'
 import ListStylePosition from '@/views/Typography/ListStylePosition.vue'
+import ListStyleType from '@/views/Typography/ListStyleType.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -416,6 +417,11 @@ const router = createRouter({
       path: '/ListStylePosition',
       name: 'ListStylePosition',
       component: ListStylePosition
+    },
+    {
+      path: '/ListStyleStyle',
+      name: 'ListStyleStyle',
+      component: ListStyleType
     }
   ]
 })
