@@ -60,6 +60,7 @@ import Size from '@/views/Sizing/Size.vue'
 import FontFamily from '@/views/Typography/FontFamily.vue'
 import FontSize from '@/views/Typography/FontSize.vue'
 import FontSmoothing from '@/views/Typography/FontSmoothing.vue'
+import FontStyle from '@/views/Typography/FontStyle.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -368,6 +369,11 @@ const router = createRouter({
       path: '/FontSmoothing',
       name: 'FontSmoothing',
       component: FontSmoothing
+    },
+    {
+      path: '/FontStyle',
+      name: 'FontStyle',
+      component: FontStyle
     }
   ]
 })
