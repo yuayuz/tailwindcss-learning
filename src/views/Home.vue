@@ -1,396 +1,79 @@
 <script setup lang="ts">
-import router from '@/router'
-import HoverFocusAndOtherStates from '@/views/coreConcepts/PseudoClasses.vue'
 import PH2 from '@/components/pH2.vue'
-import Clear from '@/views/layout/Clear.vue'
-import HeaderH1 from '@/components/headerH1.vue'
-
-const handleRouter = function (page: string) {
-  router.push({ name: page })
-}
+import HomeButton from '@/components/HomeButton.vue'
 </script>
 
 <template>
   <h1 class="padding bg m-1 bg-sky-400 p-1">Home</h1>
 
   <p-h2>Core Concepts</p-h2>
-  <button
-    @click="handleRouter('PseudoClasses')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    PseudoClasses
-  </button>
-  <button
-    @click="handleRouter('PseudoElements')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    PseudoElements
-  </button>
-  <button
-    @click="handleRouter('MediaAndFeatureQueries')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    MediaAndFeatureQueries
-  </button>
-  <button
-    @click="handleRouter('AttributeSelectors')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    AttributeSelectors
-  </button>
-  <button
-    @click="handleRouter('ResponsiveDesign')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    ResponsiveDesign
-  </button>
+  <home-button page="PseudoClasses"></home-button>
+  <home-button page="PseudoElements"></home-button>
+  <home-button page="MediaAndFeatureQueries"></home-button>
+  <home-button page="AttributeSelectors"></home-button>
+  <home-button page="ResponsiveDesign"></home-button>
   <p-h2>AspectRatio</p-h2>
-  <button
-    @click="handleRouter('AspectRatio')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    AspectRatio
-  </button>
-  <button
-    @click="handleRouter('Container')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Container
-  </button>
-  <button
-    @click="handleRouter('Columns')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Columns
-  </button>
-  <button
-    @click="handleRouter('BreakAfter')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    BreakAfter
-  </button>
-  <button
-    @click="handleRouter('BreakBefore')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    BreakBefore
-  </button>
-  <button
-    @click="handleRouter('BreakInside')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    BreakInside
-  </button>
-  <button
-    @click="handleRouter('BoxDecorationBreak')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    BoxDecorationBreak
-  </button>
-  <button
-    @click="handleRouter('BoxSizing')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    BoxSizing
-  </button>
-  <button
-    @click="handleRouter('Display')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Display
-  </button>
-  <button
-    @click="handleRouter('Floats')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Floats
-  </button>
-  <button
-    @click="handleRouter('Clear')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Clear
-  </button>
-  <button
-    @click="handleRouter('Isolation')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Isolation
-  </button>
-  <button
-    @click="handleRouter('ObjectFit')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    ObjectFit
-  </button>
-  <button
-    @click="handleRouter('ObjectPosition')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    ObjectPosition
-  </button>
-  <button
-    @click="handleRouter('Overflow')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Overflow
-  </button>
-  <button
-    @click="handleRouter('OverscrollBehavior')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    OverscrollBehavior
-  </button>
-  <button
-    @click="handleRouter('Position')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Position
-  </button>
-  <button
-    @click="handleRouter('TopRightBottomLeft')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    TopRightBottomLeft
-  </button>
-  <button
-    @click="handleRouter('Visibility')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Visibility
-  </button>
+  <home-button page="AspectRatio"></home-button>
+  <home-button page="Container"></home-button>
+  <home-button page="Columns"></home-button>
+  <home-button page="BreakAfter"></home-button>
+  <home-button page="BreakBefore"></home-button>
+  <home-button page="BreakInside"></home-button>
+  <home-button page="BoxDecorationBreak"></home-button>
+  <home-button page="BoxSizing"></home-button>
+  <home-button page="Display"></home-button>
+  <home-button page="Floats"></home-button>
+  <home-button page="Clear"></home-button>
+  <home-button page="Isolation"></home-button>
+  <home-button page="ObjectFit"></home-button>
+  <home-button page="ObjectPosition"></home-button>
+  <home-button page="Overflow"></home-button>
+  <home-button page="OverscrollBehavior"></home-button>
+  <home-button page="Position"></home-button>
+  <home-button page="TopRightBottomLeft"></home-button>
+  <home-button page="Visibility"></home-button>
   <p-h2>FlexboxGrid</p-h2>
-  <button
-    @click="handleRouter('FlexBasis')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FlexBasis
-  </button>
-  <button
-    @click="handleRouter('FlexDirection')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FlexDirection
-  </button>
-  <button
-    @click="handleRouter('FlexWrap')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Flex Wrap
-  </button>
-  <button
-    @click="handleRouter('Flex')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Flex
-  </button>
-  <button
-    @click="handleRouter('FlexGrow')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FlexGrow
-  </button>
-  <button
-    @click="handleRouter('FlexShrink')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FlexShrink
-  </button>
-  <button
-    @click="handleRouter('Order')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Order
-  </button>
-  <button
-    @click="handleRouter('GridTemplateColumns')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    GridTemplateColumns
-  </button>
-  <button
-    @click="handleRouter('GridColumnStartAndEnd')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    GridColumnStartAndEnd
-  </button>
-  <button
-    @click="handleRouter('GridTemplateRows')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    GridTemplateRows
-  </button>
-  <button
-    @click="handleRouter('GridRowStartAndEnd')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    GridRowStartAndEnd
-  </button>
-  <button
-    @click="handleRouter('GridAutoFlow')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    GridAutoFlow
-  </button>
-  <button
-    @click="handleRouter('GridAutoColumns')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    GridAutoColumns
-  </button>
-  <button
-    @click="handleRouter('GridAutoRows')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    GridAutoRows
-  </button>
-  <button
-    @click="handleRouter('Gap')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Gap
-  </button>
-  <button
-    @click="handleRouter('JustifyContent')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    JustifyContent
-  </button>
-  <button
-    @click="handleRouter('JustifyItems')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    JustifyItems
-  </button>
-  <button
-    @click="handleRouter('AlignContent')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    AlignContent
-  </button>
-  <button
-    @click="handleRouter('AlignItems')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    AlignItems
-  </button>
-  <button
-    @click="handleRouter('AlignSelf')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    AlignSelf
-  </button>
-  <button
-    @click="handleRouter('PlaceContent')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    PlaceContent
-  </button>
-  <button
-    @click="handleRouter('PlaceItems')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    PlaceItems
-  </button>
-  <button
-    @click="handleRouter('PlaceSelf')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    PlaceSelf
-  </button>
+  <home-button page="FlexBasis"></home-button>
+  <home-button page="FlexDirection"></home-button>
+  <home-button page="FlexWrap"></home-button>
+  <home-button page="Flex"></home-button>
+  <home-button page="FlexGrow"></home-button>
+  <home-button page="FlexShrink"></home-button>
+  <home-button page="Order"></home-button>
+  <home-button page="GridTemplateColumns"></home-button>
+  <home-button page="GridColumnStartAndEnd"></home-button>
+  <home-button page="GridTemplateRows"></home-button>
+  <home-button page="GridRowStartAndEnd"></home-button>
+  <home-button page="GridAutoFlow"></home-button>
+  <home-button page="GridAutoColumns"></home-button>
+  <home-button page="GridAutoRows"></home-button>
+  <home-button page="Gap"></home-button>
+  <home-button page="JustifyContent"></home-button>
+  <home-button page="JustifyItems"></home-button>
+  <home-button page="AlignContent"></home-button>
+  <home-button page="AlignItems"></home-button>
+  <home-button page="AlignSelf"></home-button>
+  <home-button page="PlaceContent"></home-button>
+  <home-button page="PlaceItems"></home-button>
+  <home-button page="PlaceSelf"></home-button>
   <p-h2>Padding</p-h2>
-  <button
-    @click="handleRouter('Padding')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Padding
-  </button>
-  <button
-    @click="handleRouter('Margin')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Margin
-  </button>
-  <button
-    @click="handleRouter('SpaceBetween')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    SpaceBetween
-  </button>
+  <home-button page="Padding"></home-button>
+  <home-button page="Margin"></home-button>
+  <home-button page="SpaceBetween"></home-button>
   <p-h2>Sizing</p-h2>
-  <button
-    @click="handleRouter('Width')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Width
-  </button>
-  <button
-    @click="handleRouter('MinWidth')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    MinWidth
-  </button>
-  <button
-    @click="handleRouter('MaxWidth')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    MaxWidth
-  </button>
-  <button
-    @click="handleRouter('Height')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Height
-  </button>
-  <button
-    @click="handleRouter('MinHeight')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    MinHeight
-  </button>
-  <button
-    @click="handleRouter('MaxHeight')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    MaxHeight
-  </button>
-  <button
-    @click="handleRouter('Size')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    Size
-  </button>
+  <home-button page="Width"></home-button>
+  <home-button page="MinWidth"></home-button>
+  <home-button page="MaxWidth"></home-button>
+  <home-button page="Height"></home-button>
+  <home-button page="MinHeight"></home-button>
+  <home-button page="MaxHeight"></home-button>
+  <home-button page="Size"></home-button>
   <p-h2>Sizing</p-h2>
-  <button
-    @click="handleRouter('FontFamily')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FontFamily
-  </button>
-  <button
-    @click="handleRouter('FontSize')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FontSize
-  </button>
-  <button
-    @click="handleRouter('FontSmoothing')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FontSmoothing
-  </button>
-  <button
-    @click="handleRouter('FontStyle')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FontStyle
-  </button>
-  <button
-    @click="handleRouter('FontWeight')"
-    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
-  >
-    FontWeight
-  </button>
+  <home-button page="FontFamily"></home-button>
+  <home-button page="FontSize"></home-button>
+  <home-button page="FontSmoothing"></home-button>
+  <home-button page="FontStyle"></home-button>
+  <home-button page="FontWeight"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
