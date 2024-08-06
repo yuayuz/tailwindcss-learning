@@ -77,6 +77,7 @@ import TextDecorationStyle from '@/views/Typography/TextDecorationStyle.vue'
 import TextDecorationThickness from '@/views/Typography/TextDecorationThickness.vue'
 import TextUnderlineOffset from '@/views/Typography/TextUnderlineOffset.vue'
 import TextTransform from '@/views/Typography/TextTransform.vue'
+import TextOverflow from '@/views/Typography/TextOverflow.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -470,6 +471,11 @@ const router = createRouter({
       path: '/TextTransform',
       name: 'TextTransform',
       component: TextTransform
+    },
+    {
+      path: '/TextOverflow',
+      name: 'TextOverflow',
+      component: TextOverflow
     }
   ]
 })
