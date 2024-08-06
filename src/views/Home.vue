@@ -74,6 +74,7 @@ import HomeButton from '@/components/HomeButton.vue'
   <home-button page="FontSmoothing"></home-button>
   <home-button page="FontStyle"></home-button>
   <home-button page="FontWeight"></home-button>
+  <home-button page="FontVariantNumeric"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

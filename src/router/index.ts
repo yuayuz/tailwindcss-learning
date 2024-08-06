@@ -62,6 +62,7 @@ import FontSize from '@/views/Typography/FontSize.vue'
 import FontSmoothing from '@/views/Typography/FontSmoothing.vue'
 import FontStyle from '@/views/Typography/FontStyle.vue'
 import FontWeight from '@/views/Typography/FontWeight.vue'
+import FontVariantNumeric from '@/views/Typography/FontVariantNumeric.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -380,6 +381,11 @@ const router = createRouter({
       path: '/FontWeight',
       name: 'FontWeight',
       component: FontWeight
+    },
+    {
+      path: '/FontVariantNumeric',
+      name: 'FontVariantNumeric',
+      component: FontVariantNumeric
     }
   ]
 })
