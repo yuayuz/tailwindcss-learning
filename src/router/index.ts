@@ -76,6 +76,7 @@ import TextDecorationColor from '@/views/Typography/TextDecorationColor.vue'
 import TextDecorationStyle from '@/views/Typography/TextDecorationStyle.vue'
 import TextDecorationThickness from '@/views/Typography/TextDecorationThickness.vue'
 import TextUnderlineOffset from '@/views/Typography/TextUnderlineOffset.vue'
+import TextTransform from '@/views/Typography/TextTransform.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -464,6 +465,11 @@ const router = createRouter({
       path: '/TextUnderlineOffset',
       name: 'TextUnderlineOffset',
       component: TextUnderlineOffset
+    },
+    {
+      path: '/TextTransform',
+      name: 'TextTransform',
+      component: TextTransform
     }
   ]
 })

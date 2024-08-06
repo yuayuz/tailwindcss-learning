@@ -88,6 +88,7 @@ import HomeButton from '@/components/HomeButton.vue'
   <home-button page="TextDecorationStyle"></home-button>
   <home-button page="TextDecorationThickness"></home-button>
   <home-button page="TextUnderlineOffset"></home-button>
+  <home-button page="TextTransform"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
