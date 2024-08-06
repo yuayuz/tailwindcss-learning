@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import PH2 from '@/components/ParagraphH2.vue'
 import HomeButton from '@/components/HomeButton.vue'
+import ParagraphH2 from '@/components/ParagraphH2.vue'
 </script>
 
 <template>
@@ -95,6 +96,8 @@ import HomeButton from '@/components/HomeButton.vue'
   <home-button page="VerticalAlign"></home-button>
   <home-button page="WordBreak"></home-button>
   <home-button page="Hyphens"></home-button>
+  <paragraph-h2>Backgrounds</paragraph-h2>
+  <home-button page="BackgroundAttachment"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
