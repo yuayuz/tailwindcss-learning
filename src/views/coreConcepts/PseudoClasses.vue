@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import HeaderH1 from '@/components/headerH1.vue'
-import PH2 from '@/components/pH2.vue'
+import HeaderH1 from '@/components/HeaderH1.vue'
+import PH2 from '@/components/ParagraphH2.vue'
 
 const usrName = ref('')
 </script>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import PH2 from '@/components/pH2.vue'
+import PH2 from '@/components/ParagraphH2.vue'
 import HomeButton from '@/components/HomeButton.vue'
 </script>
 

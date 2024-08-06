@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HeaderH1 from '@/components/headerH1.vue'
+import HeaderH1 from '@/components/HeaderH1.vue'
 </script>
 
 <template>
