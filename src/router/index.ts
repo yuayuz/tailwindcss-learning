@@ -82,6 +82,7 @@ import TextWrap from '@/views/Typography/TextWrap.vue'
 import TextIndent from '@/views/Typography/TextIndent.vue'
 import VerticalAlign from '@/views/Typography/VerticalAlign.vue'
 import WordBreak from '@/views/Typography/WordBreak.vue'
+import Hyphens from '@/views/Typography/Hyphens.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -500,6 +501,11 @@ const router = createRouter({
       path: '/WordBreak',
       name: 'WordBreak',
       component: WordBreak
+    },
+    {
+      path: '/Hyphens',
+      name: 'Hyphens',
+      component: Hyphens
     }
   ]
 })

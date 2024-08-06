@@ -94,6 +94,7 @@ import HomeButton from '@/components/HomeButton.vue'
   <home-button page="TextIndent"></home-button>
   <home-button page="VerticalAlign"></home-button>
   <home-button page="WordBreak"></home-button>
+  <home-button page="Hyphens"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
