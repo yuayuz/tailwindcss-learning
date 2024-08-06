@@ -67,6 +67,7 @@ import LetterSpacing from '@/views/Typography/LetterSpacing.vue'
 import LineClamp from '@/views/Typography/LineClamp.vue'
 import LineHeight from '@/views/Typography/LineHeight.vue'
 import ListStyleImage from '@/views/Typography/ListStyleImage.vue'
+import ListStylePosition from '@/views/Typography/ListStylePosition.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -410,6 +411,11 @@ const router = createRouter({
       path: '/ListStyleImage',
       name: 'ListStyleImage',
       component: ListStyleImage
+    },
+    {
+      path: '/ListStylePosition',
+      name: 'ListStylePosition',
+      component: ListStylePosition
     }
   ]
 })
