@@ -373,6 +373,12 @@ const handleRouter = function (page: string) {
   >
     FontSize
   </button>
+  <button
+    @click="handleRouter('FontSmoothing')"
+    class="rounded-full bg-violet-500 text-slate-50 hover:bg-violet-800"
+  >
+    FontSmoothing
+  </button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

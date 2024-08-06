@@ -59,6 +59,7 @@ import MaxHeight from '@/views/Sizing/MaxHeight.vue'
 import Size from '@/views/Sizing/Size.vue'
 import FontFamily from '@/views/Typography/FontFamily.vue'
 import FontSize from '@/views/Typography/FontSize.vue'
+import FontSmoothing from '@/views/Typography/FontSmoothing.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -362,6 +363,11 @@ const router = createRouter({
       path: '/FontSize',
       name: 'FontSize',
       component: FontSize
+    },
+    {
+      path: '/FontSmoothing',
+      name: 'FontSmoothing',
+      component: FontSmoothing
     }
   ]
 })
