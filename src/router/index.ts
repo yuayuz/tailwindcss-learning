@@ -81,6 +81,7 @@ import TextOverflow from '@/views/Typography/TextOverflow.vue'
 import TextWrap from '@/views/Typography/TextWrap.vue'
 import TextIndent from '@/views/Typography/TextIndent.vue'
 import VerticalAlign from '@/views/Typography/VerticalAlign.vue'
+import WordBreak from '@/views/Typography/WordBreak.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -494,6 +495,11 @@ const router = createRouter({
       path: '/VerticalAlign',
       name: 'VerticalAlign',
       component: VerticalAlign
+    },
+    {
+      path: '/WordBreak',
+      name: 'WordBreak',
+      component: WordBreak
     }
   ]
 })

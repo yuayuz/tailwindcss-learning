@@ -93,6 +93,7 @@ import HomeButton from '@/components/HomeButton.vue'
   <home-button page="TextWrap"></home-button>
   <home-button page="TextIndent"></home-button>
   <home-button page="VerticalAlign"></home-button>
+  <home-button page="WordBreak"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
