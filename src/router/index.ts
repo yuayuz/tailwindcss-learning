@@ -74,6 +74,7 @@ import TextColor from '@/views/Typography/TextColor.vue'
 import TextDecoration from '@/views/Typography/TextDecoration.vue'
 import TextDecorationColor from '@/views/Typography/TextDecorationColor.vue'
 import TextDecorationStyle from '@/views/Typography/TextDecorationStyle.vue'
+import TextDecorationThickness from '@/views/Typography/TextDecorationThickness.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -452,6 +453,11 @@ const router = createRouter({
       path: '/TextDecorationStyle',
       name: 'TextDecorationStyle',
       component: TextDecorationStyle
+    },
+    {
+      path: '/TextDecorationThickness',
+      name: 'TextDecorationThickness',
+      component: TextDecorationThickness
     }
   ]
 })
