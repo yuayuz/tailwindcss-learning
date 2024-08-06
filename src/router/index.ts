@@ -66,6 +66,7 @@ import FontVariantNumeric from '@/views/Typography/FontVariantNumeric.vue'
 import LetterSpacing from '@/views/Typography/LetterSpacing.vue'
 import LineClamp from '@/views/Typography/LineClamp.vue'
 import LineHeight from '@/views/Typography/LineHeight.vue'
+import ListStyleImage from '@/views/Typography/ListStyleImage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -404,6 +405,11 @@ const router = createRouter({
       path: '/LineHeight',
       name: 'LineHeight',
       component: LineHeight
+    },
+    {
+      path: '/ListStyleImage',
+      name: 'ListStyleImage',
+      component: ListStyleImage
     }
   ]
 })

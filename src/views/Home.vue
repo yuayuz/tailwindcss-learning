@@ -78,6 +78,7 @@ import HomeButton from '@/components/HomeButton.vue'
   <home-button page="LetterSpacing"></home-button>
   <home-button page="LineClamp"></home-button>
   <home-button page="LineHeight"></home-button>
+  <home-button page="ListStyleImage"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
