@@ -72,6 +72,7 @@ import ListStyleType from '@/views/Typography/ListStyleType.vue'
 import TextAlign from '@/views/Typography/TextAlign.vue'
 import TextColor from '@/views/Typography/TextColor.vue'
 import TextDecoration from '@/views/Typography/TextDecoration.vue'
+import TextDecorationColor from '@/views/Typography/TextDecorationColor.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -440,6 +441,11 @@ const router = createRouter({
       path: '/TextDecoration',
       name: 'TextDecoration',
       component: TextDecoration
+    },
+    {
+      path: '/TextDecorationColor',
+      name: 'TextDecorationColor',
+      component: TextDecorationColor
     }
   ]
 })
