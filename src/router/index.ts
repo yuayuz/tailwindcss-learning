@@ -84,6 +84,7 @@ import VerticalAlign from '@/views/Typography/VerticalAlign.vue'
 import WordBreak from '@/views/Typography/WordBreak.vue'
 import Hyphens from '@/views/Typography/Hyphens.vue'
 import BackgroundAttachment from '@/views/Backgrounds/BackgroundAttachment.vue'
+import BackgroundClip from '@/views/Backgrounds/BackgroundClip.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -512,6 +513,11 @@ const router = createRouter({
       path: '/BackgroundAttachment',
       name: 'BackgroundAttachment',
       component: BackgroundAttachment
+    },
+    {
+      path: '/BackgroundClip',
+      name: 'BackgroundClip',
+      component: BackgroundClip
     }
   ]
 })
