@@ -108,6 +108,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="GradientColorStops"></home-button>
   <paragraph-h2>Borders</paragraph-h2>
   <home-button page="BorderRadius"></home-button>
+  <home-button page="BorderWidth"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

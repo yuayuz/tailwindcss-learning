@@ -93,6 +93,7 @@ import BackgroundSize from '@/views/Backgrounds/BackgroundSize.vue'
 import BackgroundImage from '@/views/Backgrounds/BackgroundImage.vue'
 import GradientColorStops from '@/views/Backgrounds/GradientColorStops.vue'
 import BorderRadius from '@/views/Borders/BorderRadius.vue'
+import BorderWidth from '@/views/Borders/BorderWidth.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -566,6 +567,11 @@ const router = createRouter({
       path: '/BorderRadius',
       name: 'BorderRadius',
       component: BorderRadius
+    },
+    {
+      path: '/BorderWidth',
+      name: 'BorderWidth',
+      component: BorderWidth
     }
   ]
 })
