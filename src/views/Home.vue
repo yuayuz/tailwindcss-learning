@@ -105,6 +105,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="BackgroundRepeat"></home-button>
   <home-button page="BackgroundSize"></home-button>
   <home-button page="BackgroundImage"></home-button>
+  <home-button page="GradientColorStops"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

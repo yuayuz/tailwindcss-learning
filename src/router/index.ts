@@ -91,6 +91,7 @@ import BackgroundPosition from '@/views/Backgrounds/BackgroundPosition.vue'
 import BackgroundRepeat from '@/views/Backgrounds/BackgroundRepeat.vue'
 import BackgroundSize from '@/views/Backgrounds/BackgroundSize.vue'
 import BackgroundImage from '@/views/Backgrounds/BackgroundImage.vue'
+import GradientColorStops from '@/views/Backgrounds/GradientColorStops.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -554,6 +555,11 @@ const router = createRouter({
       path: '/BackgroundImage',
       name: 'BackgroundImage',
       component: BackgroundImage
+    },
+    {
+      path: '/GradientColorStops',
+      name: 'GradientColorStops',
+      component: GradientColorStops
     }
   ]
 })
