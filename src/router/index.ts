@@ -88,6 +88,7 @@ import BackgroundClip from '@/views/Backgrounds/BackgroundClip.vue'
 import BackgroundColor from '@/views/Backgrounds/BackgroundColor.vue'
 import BackgroundOrigin from '@/views/Backgrounds/BackgroundOrigin.vue'
 import BackgroundPosition from '@/views/Backgrounds/BackgroundPosition.vue'
+import BackgroundRepeat from '@/views/Backgrounds/BackgroundRepeat.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -536,6 +537,11 @@ const router = createRouter({
       path: '/BackgroundPosition',
       name: 'BackgroundPosition',
       component: BackgroundPosition
+    },
+    {
+      path: '/BackgroundRepeat',
+      name: 'BackgroundRepeat',
+      component: BackgroundRepeat
     }
   ]
 })
