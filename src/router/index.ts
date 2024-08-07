@@ -86,6 +86,7 @@ import Hyphens from '@/views/Typography/Hyphens.vue'
 import BackgroundAttachment from '@/views/Backgrounds/BackgroundAttachment.vue'
 import BackgroundClip from '@/views/Backgrounds/BackgroundClip.vue'
 import BackgroundColor from '@/views/Backgrounds/BackgroundColor.vue'
+import BackgroundOrigin from '@/views/Backgrounds/BackgroundOrigin.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -524,6 +525,11 @@ const router = createRouter({
       path: '/BackgroundColor',
       name: 'BackgroundColor',
       component: BackgroundColor
+    },
+    {
+      path: '/BackgroundOrigin',
+      name: 'BackgroundOrigin',
+      component: BackgroundOrigin
     }
   ]
 })
