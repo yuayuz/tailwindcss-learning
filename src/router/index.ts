@@ -89,6 +89,7 @@ import BackgroundColor from '@/views/Backgrounds/BackgroundColor.vue'
 import BackgroundOrigin from '@/views/Backgrounds/BackgroundOrigin.vue'
 import BackgroundPosition from '@/views/Backgrounds/BackgroundPosition.vue'
 import BackgroundRepeat from '@/views/Backgrounds/BackgroundRepeat.vue'
+import BackgroundSize from '@/views/Backgrounds/BackgroundSize.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -542,6 +543,11 @@ const router = createRouter({
       path: '/BackgroundRepeat',
       name: 'BackgroundRepeat',
       component: BackgroundRepeat
+    },
+    {
+      path: '/BackgroundSize',
+      name: 'BackgroundSize',
+      component: BackgroundSize
     }
   ]
 })
