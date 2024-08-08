@@ -130,6 +130,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <paragraph-h2>Filters</paragraph-h2>
   <home-button page="Blur"></home-button>
   <home-button page="Brightness"></home-button>
+  <home-button page="Contrast"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
