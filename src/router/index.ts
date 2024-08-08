@@ -124,6 +124,7 @@ import BackdropBlur from '@/views/Filters/BackdropBlur.vue'
 import BackdropBrightness from '@/views/Filters/BackdropBrightness.vue'
 import BackdropContrast from '@/views/Filters/BackdropContrast.vue'
 import BackdropGrayscale from '@/views/Filters/BackdropGrayscale.vue'
+import BackdropHueRotate from '@/views/Filters/BackdropHueRotate.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -752,6 +753,11 @@ const router = createRouter({
       path: '/BackdropGrayscale',
       name: 'BackdropGrayscale',
       component: BackdropGrayscale
+    },
+    {
+      path: '/BackdropHueRotate',
+      name: 'BackdropHueRotate',
+      component: BackdropHueRotate
     }
   ]
 })
