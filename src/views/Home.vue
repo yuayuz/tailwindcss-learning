@@ -150,6 +150,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="BorderCollapse"></home-button>
   <home-button page="BorderSpacing"></home-button>
   <home-button page="TableLayout"></home-button>
+  <home-button page="CaptionSide"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
