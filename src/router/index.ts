@@ -129,6 +129,7 @@ import BackdropInvert from '@/views/Filters/BackdropInvert.vue'
 import BackdropOpacity from '@/views/Filters/BackdropOpacity.vue'
 import BackdropSaturate from '@/views/Filters/BackdropSaturate.vue'
 import BackdropSepia from '@/views/Filters/BackdropSepia.vue'
+import BorderCollapse from '@/views/Tables/BorderCollapse.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -782,6 +783,11 @@ const router = createRouter({
       path: '/BackdropSepia',
       name: 'BackdropSepia',
       component: BackdropSepia
+    },
+    {
+      path: '/BorderCollapse',
+      name: 'BorderCollapse',
+      component: BorderCollapse
     }
   ]
 })
