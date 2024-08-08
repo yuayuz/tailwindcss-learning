@@ -130,6 +130,7 @@ import BackdropOpacity from '@/views/Filters/BackdropOpacity.vue'
 import BackdropSaturate from '@/views/Filters/BackdropSaturate.vue'
 import BackdropSepia from '@/views/Filters/BackdropSepia.vue'
 import BorderCollapse from '@/views/Tables/BorderCollapse.vue'
+import BorderSpacing from '@/views/Tables/BorderSpacing.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -788,6 +789,11 @@ const router = createRouter({
       path: '/BorderCollapse',
       name: 'BorderCollapse',
       component: BorderCollapse
+    },
+    {
+      path: '/BorderSpacing',
+      name: 'BorderSpacing',
+      component: BorderSpacing
     }
   ]
 })
