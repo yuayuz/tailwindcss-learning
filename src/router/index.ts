@@ -105,6 +105,7 @@ import OutlineStyle from '@/views/Borders/OutlineStyle.vue'
 import OutlineOffset from '@/views/Borders/OutlineOffset.vue'
 import RingWidth from '@/views/Borders/RingWidth.vue'
 import RingColor from '@/views/Borders/RingColor.vue'
+import RingOffsetWidth from '@/views/Borders/RingOffsetWidth.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -638,6 +639,11 @@ const router = createRouter({
       path: '/RingColor',
       name: 'RingColor',
       component: RingColor
+    },
+    {
+      path: '/RingOffsetWidth',
+      name: 'RingOffsetWidth',
+      component: RingOffsetWidth
     }
   ]
 })
