@@ -125,6 +125,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <paragraph-h2> Effects </paragraph-h2>
   <home-button page="BoxShadow"></home-button>
   <home-button page="BoxShadowColor"></home-button>
+  <home-button page="Opacity"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
