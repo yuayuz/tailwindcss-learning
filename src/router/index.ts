@@ -120,6 +120,7 @@ import HueRotate from '@/views/Filters/HueRotate.vue'
 import Invert from '@/views/Filters/Invert.vue'
 import Saturate from '@/views/Filters/Saturate.vue'
 import Sepia from '@/views/Filters/Sepia.vue'
+import BackdropBlur from '@/views/Filters/BackdropBlur.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -728,6 +729,11 @@ const router = createRouter({
       path: '/Sepia',
       name: 'Sepia',
       component: Sepia
+    },
+    {
+      path: '/BackdropBlur',
+      name: 'BackdropBlur',
+      component: BackdropBlur
     }
   ]
 })
