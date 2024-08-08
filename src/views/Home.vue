@@ -122,7 +122,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="RingColor"></home-button>
   <home-button page="RingOffsetWidth"></home-button>
   <home-button page="RingOffsetColor"></home-button>
-  <paragraph-h2> Effects </paragraph-h2>
+  <paragraph-h2> Effects</paragraph-h2>
   <home-button page="BoxShadow"></home-button>
   <home-button page="BoxShadowColor"></home-button>
   <home-button page="Opacity"></home-button>
@@ -139,6 +139,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="Sepia"></home-button>
   <home-button page="BackdropBlur"></home-button>
   <home-button page="BackdropBrightness"></home-button>
+  <home-button page="BackdropContrast"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

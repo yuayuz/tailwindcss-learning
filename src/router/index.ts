@@ -122,6 +122,7 @@ import Saturate from '@/views/Filters/Saturate.vue'
 import Sepia from '@/views/Filters/Sepia.vue'
 import BackdropBlur from '@/views/Filters/BackdropBlur.vue'
 import BackdropBrightness from '@/views/Filters/BackdropBrightness.vue'
+import BackdropContrast from '@/views/Filters/BackdropContrast.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -740,6 +741,11 @@ const router = createRouter({
       path: '/BackdropBrightness',
       name: 'BackdropBrightness',
       component: BackdropBrightness
+    },
+    {
+      path: '/BackdropContrast',
+      name: 'BackdropContrast',
+      component: BackdropContrast
     }
   ]
 })
