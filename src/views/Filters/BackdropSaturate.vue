@@ -1,0 +1,44 @@
+<script setup lang="ts">
+import HeaderH1 from '@/components/HeaderH1.vue'
+import ParagraphH2 from '@/components/ParagraphH2.vue'
+</script>
+
+<template>
+  <header-h1>Backdrop Saturate</header-h1>
+  <!-- 用于将背景饱和度滤镜应用于元素的实用程序 -->
+  <paragraph-h2>改变背景饱和度</paragraph-h2>
+  <!-- 使用 backdrop-saturate-* 实用程序来控制元素的背景饱和度 -->
+  <div class="mx-auto mt-4 flex max-w-xl place-content-around border p-4 shadow">
+    <div
+      class="flex aspect-square h-36 items-center justify-center bg-[url('@/assets/photo.avif')] bg-contain bg-center"
+    >
+      <div
+        class="aspect-square h-24 content-center justify-center bg-white/30 text-center backdrop-saturate-50"
+      >
+        1
+      </div>
+    </div>
+    <div
+      class="flex aspect-square h-36 items-center justify-center bg-[url('@/assets/photo.avif')] bg-contain bg-center text-center"
+    >
+      <div
+        class="aspect-square h-24 content-center justify-center bg-white/30 backdrop-saturate-150"
+      >
+        2
+      </div>
+    </div>
+    <div
+      class="flex aspect-square h-36 items-center justify-center bg-[url('@/assets/photo.avif')] bg-contain bg-center text-center"
+    >
+      <div
+        class="aspect-square h-24 content-center justify-center bg-white/30 backdrop-saturate-200"
+      >
+        3
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+@import 'tailwindcss/tailwind.css';
+</style>

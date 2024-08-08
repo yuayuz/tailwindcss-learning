@@ -144,6 +144,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="BackdropHueRotate"></home-button>
   <home-button page="BackdropInvert"></home-button>
   <home-button page="BackdropOpacity"></home-button>
+  <home-button page="BackdropSaturate"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
