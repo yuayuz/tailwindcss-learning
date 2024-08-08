@@ -111,6 +111,7 @@ import BoxShadow from '@/views/Effects/BoxShadow.vue'
 import BoxShadowColor from '@/views/Effects/BoxShadowColor.vue'
 import Opacity from '@/views/Effects/Opacity.vue'
 import MixBlendMode from '@/views/Effects/MixBlendMode.vue'
+import Blur from '@/views/Filters/Blur.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -674,6 +675,11 @@ const router = createRouter({
       path: '/MixBlendMode',
       name: 'MixBlendMode',
       component: MixBlendMode
+    },
+    {
+      path: '/Blur',
+      name: 'Blur',
+      component: Blur
     }
   ]
 })

@@ -127,6 +127,8 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="BoxShadowColor"></home-button>
   <home-button page="Opacity"></home-button>
   <home-button page="MixBlendMode"></home-button>
+  <paragraph-h2>Filters</paragraph-h2>
+  <home-button page="Blur"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
