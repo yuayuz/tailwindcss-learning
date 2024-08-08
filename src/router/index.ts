@@ -115,6 +115,7 @@ import Blur from '@/views/Filters/Blur.vue'
 import Brightness from '@/views/Filters/Brightness.vue'
 import Contrast from '@/views/Filters/Contrast.vue'
 import DropShadow from '@/views/Filters/DropShadow.vue'
+import Grayscale from '@/views/Filters/Grayscale.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -698,6 +699,11 @@ const router = createRouter({
       path: '/DropShadow',
       name: 'DropShadow',
       component: DropShadow
+    },
+    {
+      path: '/Grayscale',
+      name: 'Grayscale',
+      component: Grayscale
     }
   ]
 })
