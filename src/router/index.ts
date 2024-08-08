@@ -108,6 +108,7 @@ import RingColor from '@/views/Borders/RingColor.vue'
 import RingOffsetWidth from '@/views/Borders/RingOffsetWidth.vue'
 import RingOffsetColor from '@/views/Borders/RingOffsetColor.vue'
 import BoxShadow from '@/views/Effects/BoxShadow.vue'
+import BoxShadowColor from '@/views/Effects/BoxShadowColor.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -656,6 +657,11 @@ const router = createRouter({
       path: '/BoxShadow',
       name: 'BoxShadow',
       component: BoxShadow
+    },
+    {
+      path: '/BoxShadowColor',
+      name: 'BoxShadowColor',
+      component: BoxShadowColor
     }
   ]
 })
