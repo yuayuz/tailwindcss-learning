@@ -103,6 +103,7 @@ import OutlineWidth from '@/views/Borders/OutlineWidth.vue'
 import OutlineColor from '@/views/Borders/OutlineColor.vue'
 import OutlineStyle from '@/views/Borders/OutlineStyle.vue'
 import OutlineOffset from '@/views/Borders/OutlineOffset.vue'
+import RingWidth from '@/views/Borders/RingWidth.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -626,6 +627,11 @@ const router = createRouter({
       path: '/OutlineOffset',
       name: 'OutlineOffset',
       component: OutlineOffset
+    },
+    {
+      path: '/RingWidth',
+      name: 'RingWidth',
+      component: RingWidth
     }
   ]
 })
