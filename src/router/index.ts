@@ -114,6 +114,7 @@ import MixBlendMode from '@/views/Effects/MixBlendMode.vue'
 import Blur from '@/views/Filters/Blur.vue'
 import Brightness from '@/views/Filters/Brightness.vue'
 import Contrast from '@/views/Filters/Contrast.vue'
+import DropShadow from '@/views/Filters/DropShadow.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -692,6 +693,11 @@ const router = createRouter({
       path: '/Contrast',
       name: 'Contrast',
       component: Contrast
+    },
+    {
+      path: '/DropShadow',
+      name: 'DropShadow',
+      component: DropShadow
     }
   ]
 })
