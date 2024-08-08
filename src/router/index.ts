@@ -98,6 +98,7 @@ import BorderColor from '@/views/Borders/BorderColor.vue'
 import BorderStyle from '@/views/Borders/BorderStyle.vue'
 import DivideWidth from '@/views/Borders/DivideWidth.vue'
 import DivideColor from '@/views/Borders/DivideColor.vue'
+import DivideStyle from '@/views/Borders/DivideStyle.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -596,6 +597,11 @@ const router = createRouter({
       path: '/DivideColor',
       name: 'DivideColor',
       component: DivideColor
+    },
+    {
+      path: '/DivideStyle',
+      name: 'DivideStyle',
+      component: DivideStyle
     }
   ]
 })
