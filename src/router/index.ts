@@ -100,6 +100,7 @@ import DivideWidth from '@/views/Borders/DivideWidth.vue'
 import DivideColor from '@/views/Borders/DivideColor.vue'
 import DivideStyle from '@/views/Borders/DivideStyle.vue'
 import OutlineWidth from '@/views/Borders/OutlineWidth.vue'
+import OutlineColor from '@/views/Borders/OutlineColor.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -608,6 +609,11 @@ const router = createRouter({
       path: '/OutlineWidth',
       name: 'OutlineWidth',
       component: OutlineWidth
+    },
+    {
+      path: '/OutlineColor',
+      name: 'OutlineColor',
+      component: OutlineColor
     }
   ]
 })

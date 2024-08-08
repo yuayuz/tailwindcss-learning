@@ -115,6 +115,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="DivideColor"></home-button>
   <home-button page="DivideStyle"></home-button>
   <home-button page="OutlineWidth"></home-button>
+  <home-button page="OutlineColor"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
