@@ -117,6 +117,7 @@ import Contrast from '@/views/Filters/Contrast.vue'
 import DropShadow from '@/views/Filters/DropShadow.vue'
 import Grayscale from '@/views/Filters/Grayscale.vue'
 import HueRotate from '@/views/Filters/HueRotate.vue'
+import Invert from '@/views/Filters/Invert.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -710,6 +711,11 @@ const router = createRouter({
       path: '/HueRotate',
       name: 'HueRotate',
       component: HueRotate
+    },
+    {
+      path: '/Invert',
+      name: 'Invert',
+      component: Invert
     }
   ]
 })
