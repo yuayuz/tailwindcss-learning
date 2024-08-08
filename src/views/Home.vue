@@ -119,6 +119,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="OutlineStyle"></home-button>
   <home-button page="OutlineOffset"></home-button>
   <home-button page="RingWidth"></home-button>
+  <home-button page="RingColor"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
