@@ -131,6 +131,7 @@ import BackdropSaturate from '@/views/Filters/BackdropSaturate.vue'
 import BackdropSepia from '@/views/Filters/BackdropSepia.vue'
 import BorderCollapse from '@/views/Tables/BorderCollapse.vue'
 import BorderSpacing from '@/views/Tables/BorderSpacing.vue'
+import TableLayout from '@/views/Tables/TableLayout.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -794,6 +795,11 @@ const router = createRouter({
       path: '/BorderSpacing',
       name: 'BorderSpacing',
       component: BorderSpacing
+    },
+    {
+      path: '/TableLayout',
+      name: 'TableLayout',
+      component: TableLayout
     }
   ]
 })
