@@ -136,6 +136,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="HueRotate"></home-button>
   <home-button page="Invert"></home-button>
   <home-button page="Saturate"></home-button>
+  <home-button page="Sepia"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

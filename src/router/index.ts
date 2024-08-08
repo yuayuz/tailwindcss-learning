@@ -119,6 +119,7 @@ import Grayscale from '@/views/Filters/Grayscale.vue'
 import HueRotate from '@/views/Filters/HueRotate.vue'
 import Invert from '@/views/Filters/Invert.vue'
 import Saturate from '@/views/Filters/Saturate.vue'
+import Sepia from '@/views/Filters/Sepia.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -722,6 +723,11 @@ const router = createRouter({
       path: '/Saturate',
       name: 'Saturate',
       component: Saturate
+    },
+    {
+      path: '/Sepia',
+      name: 'Sepia',
+      component: Sepia
     }
   ]
 })
