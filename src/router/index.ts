@@ -139,6 +139,7 @@ import TransitionTimingFunction from '@/views/TransitionsAndAnimation/Transition
 import TransitionDelay from '@/views/TransitionsAndAnimation/TransitionDelay.vue'
 import AnimationView from '@/views/TransitionsAndAnimation/AnimationView.vue'
 import Scale from '@/views/Transforms/Scale.vue'
+import Rotate from '@/views/Transforms/Rotate.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -842,6 +843,11 @@ const router = createRouter({
       path: '/Scale',
       name: 'Scale',
       component: Scale
+    },
+    {
+      path: '/Rotate',
+      name: 'Rotate',
+      component: Rotate
     }
   ]
 })
