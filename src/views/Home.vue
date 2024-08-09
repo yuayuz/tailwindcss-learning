@@ -160,6 +160,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <paragraph-h2>Transforms</paragraph-h2>
   <home-button page="Scale"></home-button>
   <home-button page="Rotate"></home-button>
+  <home-button page="Translate"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
