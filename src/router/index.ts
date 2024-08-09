@@ -134,6 +134,7 @@ import BorderSpacing from '@/views/Tables/BorderSpacing.vue'
 import TableLayout from '@/views/Tables/TableLayout.vue'
 import CaptionSide from '@/views/Tables/CaptionSide.vue'
 import TransitionProperty from '@/views/TransitionsAndAnimation/TransitionProperty.vue'
+import TransitionDuration from '@/views/TransitionsAndAnimation/TransitionDuration.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -812,6 +813,11 @@ const router = createRouter({
       path: '/TransitionProperty',
       name: 'TransitionProperty',
       component: TransitionProperty
+    },
+    {
+      path: '/TransitionDuration',
+      name: 'TransitionDuration',
+      component: TransitionDuration
     }
   ]
 })
