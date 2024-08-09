@@ -138,6 +138,7 @@ import TransitionDuration from '@/views/TransitionsAndAnimation/TransitionDurati
 import TransitionTimingFunction from '@/views/TransitionsAndAnimation/TransitionTimingFunction.vue'
 import TransitionDelay from '@/views/TransitionsAndAnimation/TransitionDelay.vue'
 import AnimationView from '@/views/TransitionsAndAnimation/AnimationView.vue'
+import Scale from '@/views/Transforms/Scale.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -836,6 +837,11 @@ const router = createRouter({
       path: '/AnimationView',
       name: 'AnimationView',
       component: AnimationView
+    },
+    {
+      path: '/Scale',
+      name: 'Scale',
+      component: Scale
     }
   ]
 })
