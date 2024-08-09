@@ -175,6 +175,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="ScrollPadding"></home-button>
   <home-button page="ScrollSnapAlign"></home-button>
   <home-button page="ScrollSnapStop"></home-button>
+  <home-button page="UserSelect"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

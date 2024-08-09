@@ -154,6 +154,7 @@ import ScrollMargin from '@/views/Interactivity/ScrollMargin.vue'
 import ScrollPadding from '@/views/Interactivity/ScrollPadding.vue'
 import ScrollSnapAlign from '@/views/Interactivity/ScrollSnapAlign.vue'
 import ScrollSnapStop from '@/views/Interactivity/ScrollSnapStop.vue'
+import UserSelect from '@/views/Interactivity/UserSelect.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -932,6 +933,11 @@ const router = createRouter({
       path: '/ScrollSnapStop',
       name: 'ScrollSnapStop',
       component: ScrollSnapStop
+    },
+    {
+      path: '/UserSelect',
+      name: 'UserSelect',
+      component: UserSelect
     }
   ]
 })
