@@ -150,6 +150,7 @@ import CaretColor from '@/views/Interactivity/CaretColor.vue'
 import PointerEvents from '@/views/Interactivity/PointerEvents.vue'
 import Resize from '@/views/Interactivity/Resize.vue'
 import ScrollBehavior from '@/views/Interactivity/ScrollBehavior.vue'
+import ScrollMargin from '@/views/Interactivity/ScrollMargin.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -908,6 +909,11 @@ const router = createRouter({
       path: '/ScrollBehavior',
       name: 'ScrollBehavior',
       component: ScrollBehavior
+    },
+    {
+      path: '/ScrollMargin',
+      name: 'ScrollMargin',
+      component: ScrollMargin
     }
   ]
 })
