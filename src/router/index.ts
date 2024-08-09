@@ -153,6 +153,7 @@ import ScrollBehavior from '@/views/Interactivity/ScrollBehavior.vue'
 import ScrollMargin from '@/views/Interactivity/ScrollMargin.vue'
 import ScrollPadding from '@/views/Interactivity/ScrollPadding.vue'
 import ScrollSnapAlign from '@/views/Interactivity/ScrollSnapAlign.vue'
+import ScrollSnapStop from '@/views/Interactivity/ScrollSnapStop.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -926,6 +927,11 @@ const router = createRouter({
       path: '/ScrollSnapAlign',
       name: 'ScrollSnapAlign',
       component: ScrollSnapAlign
+    },
+    {
+      path: '/ScrollSnapStop',
+      name: 'ScrollSnapStop',
+      component: ScrollSnapStop
     }
   ]
 })
