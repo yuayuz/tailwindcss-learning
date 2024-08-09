@@ -141,6 +141,7 @@ import AnimationView from '@/views/TransitionsAndAnimation/AnimationView.vue'
 import Scale from '@/views/Transforms/Scale.vue'
 import Rotate from '@/views/Transforms/Rotate.vue'
 import Translate from '@/views/Transforms/Translate.vue'
+import Skew from '@/views/Transforms/Skew.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -854,6 +855,11 @@ const router = createRouter({
       path: '/Translate',
       name: 'Translate',
       component: Translate
+    },
+    {
+      path: '/Skew',
+      name: 'Skew',
+      component: Skew
     }
   ]
 })
