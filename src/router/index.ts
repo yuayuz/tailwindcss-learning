@@ -151,6 +151,7 @@ import PointerEvents from '@/views/Interactivity/PointerEvents.vue'
 import Resize from '@/views/Interactivity/Resize.vue'
 import ScrollBehavior from '@/views/Interactivity/ScrollBehavior.vue'
 import ScrollMargin from '@/views/Interactivity/ScrollMargin.vue'
+import ScrollPadding from '@/views/Interactivity/ScrollPadding.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -914,6 +915,11 @@ const router = createRouter({
       path: '/ScrollMargin',
       name: 'ScrollMargin',
       component: ScrollMargin
+    },
+    {
+      path: '/ScrollPadding',
+      name: 'ScrollPadding',
+      component: ScrollPadding
     }
   ]
 })
