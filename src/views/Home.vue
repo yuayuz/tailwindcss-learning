@@ -167,6 +167,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="AccentColor"></home-button>
   <home-button page="Appearance"></home-button>
   <home-button page="Cursor"></home-button>
+  <home-button page="CaretColor"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';

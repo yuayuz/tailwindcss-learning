@@ -146,6 +146,7 @@ import TransformOrigin from '@/views/Transforms/TransformOrigin.vue'
 import AccentColor from '@/views/Interactivity/AccentColor.vue'
 import Appearance from '@/views/Interactivity/Appearance.vue'
 import Cursor from '@/views/Interactivity/Cursor.vue'
+import CaretColor from '@/views/Interactivity/CaretColor.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -884,6 +885,11 @@ const router = createRouter({
       path: '/Cursor',
       name: 'Cursor',
       component: Cursor
+    },
+    {
+      path: '/CaretColor',
+      name: 'CaretColor',
+      component: CaretColor
     }
   ]
 })
