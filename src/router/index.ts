@@ -135,6 +135,7 @@ import TableLayout from '@/views/Tables/TableLayout.vue'
 import CaptionSide from '@/views/Tables/CaptionSide.vue'
 import TransitionProperty from '@/views/TransitionsAndAnimation/TransitionProperty.vue'
 import TransitionDuration from '@/views/TransitionsAndAnimation/TransitionDuration.vue'
+import TransitionTimingFunction from '@/views/TransitionsAndAnimation/TransitionTimingFunction.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -818,6 +819,11 @@ const router = createRouter({
       path: '/TransitionDuration',
       name: 'TransitionDuration',
       component: TransitionDuration
+    },
+    {
+      path: '/TransitionTimingFunction',
+      name: 'TransitionTimingFunction',
+      component: TransitionTimingFunction
     }
   ]
 })
