@@ -142,6 +142,7 @@ import Scale from '@/views/Transforms/Scale.vue'
 import Rotate from '@/views/Transforms/Rotate.vue'
 import Translate from '@/views/Transforms/Translate.vue'
 import Skew from '@/views/Transforms/Skew.vue'
+import TransformOrigin from '@/views/Transforms/TransformOrigin.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -860,6 +861,11 @@ const router = createRouter({
       path: '/Skew',
       name: 'Skew',
       component: Skew
+    },
+    {
+      path: '/TransformOrigin',
+      name: 'TransformOrigin',
+      component: TransformOrigin
     }
   ]
 })
