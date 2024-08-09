@@ -148,6 +148,7 @@ import Appearance from '@/views/Interactivity/Appearance.vue'
 import Cursor from '@/views/Interactivity/Cursor.vue'
 import CaretColor from '@/views/Interactivity/CaretColor.vue'
 import PointerEvents from '@/views/Interactivity/PointerEvents.vue'
+import Resize from '@/views/Interactivity/Resize.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -896,6 +897,11 @@ const router = createRouter({
       path: '/PointerEvents',
       name: 'PointerEvents',
       component: PointerEvents
+    },
+    {
+      path: '/Resize',
+      name: 'Resize',
+      component: Resize
     }
   ]
 })
