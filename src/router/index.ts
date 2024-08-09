@@ -133,6 +133,7 @@ import BorderCollapse from '@/views/Tables/BorderCollapse.vue'
 import BorderSpacing from '@/views/Tables/BorderSpacing.vue'
 import TableLayout from '@/views/Tables/TableLayout.vue'
 import CaptionSide from '@/views/Tables/CaptionSide.vue'
+import TransitionProperty from '@/views/TransitionsAndAnimation/TransitionProperty.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -806,6 +807,11 @@ const router = createRouter({
       path: '/CaptionSide',
       name: 'CaptionSide',
       component: CaptionSide
+    },
+    {
+      path: '/TransitionProperty',
+      name: 'TransitionProperty',
+      component: TransitionProperty
     }
   ]
 })
