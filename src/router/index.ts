@@ -137,6 +137,7 @@ import TransitionProperty from '@/views/TransitionsAndAnimation/TransitionProper
 import TransitionDuration from '@/views/TransitionsAndAnimation/TransitionDuration.vue'
 import TransitionTimingFunction from '@/views/TransitionsAndAnimation/TransitionTimingFunction.vue'
 import TransitionDelay from '@/views/TransitionsAndAnimation/TransitionDelay.vue'
+import AnimationView from '@/views/TransitionsAndAnimation/AnimationView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -830,6 +831,11 @@ const router = createRouter({
       path: '/TransitionDelay',
       name: 'TransitionDelay',
       component: TransitionDelay
+    },
+    {
+      path: '/AnimationView',
+      name: 'AnimationView',
+      component: AnimationView
     }
   ]
 })

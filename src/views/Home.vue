@@ -156,6 +156,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="TransitionDuration"></home-button>
   <home-button page="TransitionTimingFunction"></home-button>
   <home-button page="TransitionDelay"></home-button>
+  <home-button page="AnimationView"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
