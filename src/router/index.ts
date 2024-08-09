@@ -144,6 +144,7 @@ import Translate from '@/views/Transforms/Translate.vue'
 import Skew from '@/views/Transforms/Skew.vue'
 import TransformOrigin from '@/views/Transforms/TransformOrigin.vue'
 import AccentColor from '@/views/Interactivity/AccentColor.vue'
+import Appearance from '@/views/Interactivity/Appearance.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -872,6 +873,11 @@ const router = createRouter({
       path: '/AccentColor',
       name: 'AccentColor',
       component: AccentColor
+    },
+    {
+      path: '/Appearance',
+      name: 'Appearance',
+      component: Appearance
     }
   ]
 })

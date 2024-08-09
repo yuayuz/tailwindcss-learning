@@ -165,6 +165,7 @@ import ParagraphH2 from '@/components/ParagraphH2.vue'
   <home-button page="TransformOrigin"></home-button>
   <paragraph-h2>Interactivity</paragraph-h2>
   <home-button page="AccentColor"></home-button>
+  <home-button page="Appearance"></home-button>
 </template>
 <style scoped>
 @import 'tailwindcss/tailwind.css';
